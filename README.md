@@ -1,3 +1,7 @@
+# MIRROR-NEW
+
+![MIRROR-NEW](xcoders.jpg)
+
 **This Mirror Bot** is a _multipurpose_ Telegram Bot writen in Python for mirroring files on the Internet to our beloved Google Drive.
 
 # Features supported:
@@ -60,7 +64,7 @@ Deploying is pretty much straight forward and is divided into several steps as f
 
 - Clone this repo:
 ```
-git clone https://github.com/Slam-Team/slam-mirrorbot mirrorbot/
+git clone https://github.com/yuno74/Mirror-New mirrorbot/
 cd mirrorbot
 ```
 
@@ -93,6 +97,8 @@ docker build . --rm --force-rm --compress --no-cache=true --pull --file Dockerfi
 ```
 sudo docker run mirrorbot
 ```
+## Deploying on Heroku with Github Workflow
+<p><a href="https://github.com/yuno74/Mirror-New/blob/main/HerokuGuide.md"> <img src="https://img.shields.io/badge/Deploy%20Guide-blueviolet?style=for-the-badge&logo=heroku" width="180""/></a></p>
 
 ## Setting up config file
 <details>
